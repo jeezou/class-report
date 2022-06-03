@@ -16,7 +16,7 @@ app.use(
 //   response.json({ info: "Node.js, Express, and Postgres API" });
 // });
 
-app.get("/", db.getClasses);
+app.get("/", db.getLessons);
 app.get("/lessons", db.createLessons);
 
 app.listen(port, () => {
